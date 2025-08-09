@@ -7,8 +7,16 @@ public class Main {
         /*UseOfStack testStack = new UseOfStack();
         testStack.useOfStack();*/
 
-        // queue testing
-        UseOfQueue testQueue = new UseOfQueue();
-        testQueue.useOfQueue();
+        // queue using LinkedList testing
+        /*UseOfQueue testQueue = new UseOfQueue();
+        testQueue.useOfQueue();*/
+
+        // priority queue are shows as to show the higher priority first then to the lowest
+        UseOfQueue priorityQueue = new UseOfQueue();
+        priorityQueue.useOfPriorityQueue();
+
+        // priorityQueue reverse order  in queue
+        /*UseOfQueue testQueueUsingPriorityQueue = new UseOfQueue();
+        testQueueUsingPriorityQueue.useOfPriorityQueueReverse();*/
     }
 }

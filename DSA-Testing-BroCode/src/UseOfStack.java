@@ -22,9 +22,9 @@ public class UseOfStack {
 
             //use this peek() method to see which item at the top stack
             System.out.println(stack.peek());
-            System.out.println(stack.peek());
 
-            System.out.print(stack);
+
+            System.out.print("This is stack program" + stack);
         }else  {
             System.out.println("Stack is empty");
         }

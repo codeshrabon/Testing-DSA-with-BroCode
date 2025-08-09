@@ -4,7 +4,11 @@ public class Main {
     public static void main(String[] args) {
         // testing DSA
         // Stack
-        UseOfStack testStack = new UseOfStack();
-        testStack.useOfStack();
+        /*UseOfStack testStack = new UseOfStack();
+        testStack.useOfStack();*/
+
+        // queue testing
+        UseOfQueue testQueue = new UseOfQueue();
+        testQueue.useOfQueue();
     }
 }

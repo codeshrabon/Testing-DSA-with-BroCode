@@ -15,7 +15,7 @@ public class Main {
         UseOfQueue priorityQueue = new UseOfQueue();
         priorityQueue.useOfPriorityQueue();
 
-        // priorityQueue reverse order  in queue
+        // priorityQueue reverse order in queue
         /*UseOfQueue testQueueUsingPriorityQueue = new UseOfQueue();
         testQueueUsingPriorityQueue.useOfPriorityQueueReverse();*/
     }

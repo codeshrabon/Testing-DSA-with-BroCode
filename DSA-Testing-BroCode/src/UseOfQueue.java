@@ -53,7 +53,7 @@ public class UseOfQueue {
         queue.offer("D");
         queue.offer("A");
         queue.offer("C");
-        queue.offer("B");
+        queue.offer("moon");
         queue.offer("E");
 
         while (!queue.isEmpty()) {

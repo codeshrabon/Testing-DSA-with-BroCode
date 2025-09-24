@@ -1,21 +1,16 @@
 import java.util.*;
 
 public class UseOfDynamicArray {
-    public static void main(String[] args) {
-        int[] array = new int[100];
-        int target = 45;
+    int size;
+    int capacity = 10;
+    Object[] array;
 
-        for (int i = 0; i < array.length; i++) {
-            array[i] = i;
-        }
+    public UseOfDynamicArray(){
+        this.array = new Object[capacity];
+    }
 
-        int index = Arrays.binarySearch(array, target);
-
-        if (index == -1) {
-            System.out.println(target + " Element not found");
-        }
-        else{
-            System.out.println("Element found in : " + target);
-        }
+    public UseOfDynamicArray(int capacity){
+        this.capacity = capacity;
+        this.array = new Object[capacity];
     }
 }

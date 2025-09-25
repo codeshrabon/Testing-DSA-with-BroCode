@@ -21,7 +21,7 @@ public class Main {
 
 
         // use of array 
-        UseOfDynamicArray useOfDynamicArray = new UseOfDynamicArray();
-        System.out.println(useOfDynamicArray.capacity);
+        /* UseOfDynamicArray useOfDynamicArray = new UseOfDynamicArray();
+        System.out.println(useOfDynamicArray.capacity); */
     }
 }

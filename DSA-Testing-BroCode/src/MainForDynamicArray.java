@@ -13,6 +13,10 @@ public class MainForDynamicArray {
         useOfDynamicArray.insert(0, "X");
         useOfDynamicArray.insert(2, "Y");
 
+        // delete data from the object class 
+        useOfDynamicArray.delete("A");
+
+
         System.out.println(useOfDynamicArray);
         System.out.println("Array size: "+ useOfDynamicArray.size);
         System.out.println("Array capacity: " + useOfDynamicArray.capacity);

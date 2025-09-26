@@ -10,11 +10,18 @@ public class MainForDynamicArray {
         useOfDynamicArray.add("D");
         //useOfDynamicArray.add("E");
         //useOfDynamicArray.add("F");
-        useOfDynamicArray.insert(0, "X");
-        useOfDynamicArray.insert(2, "Y");
+
+        // search for data 
+        System.out.println(useOfDynamicArray.search("D"));
+        
+
+
+        // inserting data 
+        //useOfDynamicArray.insert(0, "X");
+        //useOfDynamicArray.insert(2, "Y");
 
         // delete data from the object class 
-        useOfDynamicArray.delete("A");
+        //useOfDynamicArray.delete("A");
 
 
         System.out.println(useOfDynamicArray);

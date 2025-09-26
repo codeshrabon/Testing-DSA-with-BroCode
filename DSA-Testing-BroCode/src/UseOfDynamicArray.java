@@ -67,6 +67,16 @@ public class UseOfDynamicArray {
     }
 
     public int search(Object data){
+
+        // iterate through all the element to find the exact data 
+        for (int i = 0; i < size; i++){
+            if (array[i] == data) {
+                // will show the index of it that where is was found 
+                // cause this was out main target that where it is existing
+                
+                return i;
+            }
+        }
         return -1;
     }
 

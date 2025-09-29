@@ -81,6 +81,17 @@ public class UseOfDynamicArray {
     }
 
     private void grow(){
+        int newCapacity = (int )(capacity * 2);
+        Object[] newArray = new Object[newCapacity];
+
+        // copy those element that was in the previous array to new array 
+        for (int i = 0; i < size; i++) {
+            newArray[i] = array[i];
+        }
+
+        // now set them to the original one 
+        capacity = newCapacity;
+        array = newArray;
 
     }
 

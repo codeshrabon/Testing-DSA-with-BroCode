@@ -1,6 +1,7 @@
 public class MainForDynamicArray {
     public static void main(String[] args) {
-        UseOfDynamicArray useOfDynamicArray = new UseOfDynamicArray();
+        // UseOfDynamicArray useOfDynamicArray = new UseOfDynamicArray();
+        UseOfDynamicArray useOfDynamicArray = new UseOfDynamicArray(5);
 
         // System.out.println(useOfDynamicArray.capacity +" - "+ useOfDynamicArray.size);
 
@@ -8,11 +9,11 @@ public class MainForDynamicArray {
         useOfDynamicArray.add("B");
         useOfDynamicArray.add("C");
         useOfDynamicArray.add("D");
-        //useOfDynamicArray.add("E");
-        //useOfDynamicArray.add("F");
+        useOfDynamicArray.add("E");
+        useOfDynamicArray.add("F");
 
         // search for data 
-        System.out.println(useOfDynamicArray.search("D"));
+        //System.out.println(useOfDynamicArray.search("D"));
         
 
 

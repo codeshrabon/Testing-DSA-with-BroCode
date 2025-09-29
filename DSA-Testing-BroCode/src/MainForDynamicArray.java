@@ -12,6 +12,12 @@ public class MainForDynamicArray {
         useOfDynamicArray.add("E");
         useOfDynamicArray.add("F");
 
+        // delete some data to see if it shrink its capacity 
+        useOfDynamicArray.delete("F");
+        useOfDynamicArray.delete("C");
+        useOfDynamicArray.delete("D");
+        
+
         // search for data 
         //System.out.println(useOfDynamicArray.search("D"));
         

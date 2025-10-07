@@ -28,6 +28,9 @@ public class LinkedListVsArrayListsUse {
         //linkedList.get(999999);
 
         // now time to remove some element 
+        //linkedList.remove(0);
+        //linkedList.remove(500000);
+        linkedList.get(999999);
 
         endTime = System.nanoTime();
 
@@ -35,7 +38,7 @@ public class LinkedListVsArrayListsUse {
         elapsedTime = endTime - startTime;
 
         System.out.println("LinkedList time :\t" + elapsedTime + " ns");
-        System.out.println("LinkedList :\t" + a_random_number );
+        //System.out.println("LinkedList :\t" + a_random_number );
 
 
         // **************ArrayList **************
@@ -48,6 +51,9 @@ public class LinkedListVsArrayListsUse {
         //arrayList.get(999999);
 
         // now time to remove something from it 
+        //arrayList.remove(0);
+        //arrayList.remove(500000);
+        arrayList.remove(999999);
 
         endTime = System.nanoTime();
 

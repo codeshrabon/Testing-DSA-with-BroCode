@@ -4,6 +4,9 @@ import java.util.Arrays;
 public class LinearSearch {
     public static void main(String[] args) {
         // linear search = iterate through a collection one element at a time
+
+        // the main advantage here we do not need sorted array 
+        // like we can go through with unsorted array unline binary search whose main condition is array must be sorted
         int[] array = {83, 17, 42, 96, 5, 61, 28, 74, 39, 90,
                         12, 67, 33, 8, 49, 21, 77, 3, 58, 100};
 
